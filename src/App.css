@@ -1,0 +1,41 @@
+.app-container {
+  max-width: 600px; /* Set maximum width */
+  margin: auto; /* Center the container */
+  padding: 20px; /* Add padding */
+  background: #f9f9f9; /* Light background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+}
+
+form {
+  display: flex; /* Use flexbox for form layout */
+  flex-direction: column; /* Stack inputs vertically */
+}
+
+input, select, button {
+  margin: 10px 0; /* Margin between inputs */
+  padding: 10px; /* Padding inside inputs */
+}
+
+button {
+  background: #007bff; /* Button background color */
+  color: white; /* Button text color */
+  border: none; /* Remove default border */
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+button:hover {
+  background: #0056b3; /* Darken button on hover */
+}
+
+ul {
+  list-style-type: none; /* Remove list bullets */
+  padding: 0; /* Remove padding */
+}
+
+li {
+  display: flex; /* Use flexbox for list items */
+  justify-content: space-between; /* Space between text and buttons */
+  align-items: center; /* Center vertically */
+  margin: 10px 0; /* Margin between list items */
+}
